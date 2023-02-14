@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body {
+    background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+}
+
+h1 {
+    font-weight: normal;
+    text-align: center;
+}
+
+.thanks {
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+    padding-top: -1em;
+    padding-bottom: 1.5em;
+}
+
+form {
+    width: 90vw;
+    max-width: 700px;
+    min-width: 400px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    background-color: hsla(230, 100%, 10%, 0.8);
+    border: none;
+    border-radius: 5px;
+}
+
+.container {
+    padding: 2.5rem;
+}
+
+span {
+    font-size: small;
+}
+
+input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    min-height: 32px;
+}
+
+select,
+textarea,
+input[type="submit"],
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  vertical-align: middle;
+}
+
+.form-row {
+    padding: 1rem 1rem;
+}
+
+.radio-row {
+    padding: 0;
+}
+
+.checkbox-row {
+    padding: 0;
+}
+
+.submit-btn {
+    color: white;
+    background: rgb(92,173,108);
+}
